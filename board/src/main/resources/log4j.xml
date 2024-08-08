@@ -11,7 +11,7 @@
     </appender>
 
     <!-- Application Loggers -->
-    <logger name="org.scoula.ex04.vet">
+    <logger name="org.scoula.board">
         <level value="info" />
     </logger>
 

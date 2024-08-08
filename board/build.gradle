@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-group 'org.scoula.ex04.vet'
+group 'org.scoula.board'
 version '1.0-SNAPSHOT'
 
 repositories {

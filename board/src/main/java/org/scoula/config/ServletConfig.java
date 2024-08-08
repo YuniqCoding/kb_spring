@@ -15,8 +15,9 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 //controller 패키지 내부에서 컴포넌트를 찾아라
 @ComponentScan(basePackages = {
-        "org.scoula.ex04.exception",
-        "org.scoula.ex04.controller"
+        "org.scoula.exception",
+        "org.scoula.board.controller",
+        "org.scoula.controller"
 })
 public class ServletConfig implements WebMvcConfigurer {
     @Override
