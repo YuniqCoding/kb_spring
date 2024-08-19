@@ -16,9 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 //controller 패키지 내부에서 컴포넌트를 찾아라
 @ComponentScan(basePackages = {
         "org.scoula.exception",
-        "org.scoula.board.controller",
-        "org.scoula.controller",
-        "org.scoula.weather.controller"
+        "org.scoula.controller"
 })
 public class ServletConfig implements WebMvcConfigurer {
     @Override
