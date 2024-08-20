@@ -1,4 +1,4 @@
-package org.scoula.secserver.controller;
+package org.scoula.controller;
 
 import lombok.Lombok;
 import lombok.extern.slf4j.Slf4j;

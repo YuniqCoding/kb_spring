@@ -1,4 +1,4 @@
-package org.scoula.secserver.exception;
+package org.scoula.exception;
 
 import lombok.extern.log4j.Log4j;
 import org.springframework.http.HttpStatus;
