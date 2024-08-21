@@ -33,6 +33,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
+        http.addFilterBefore(encodingFilter(), CsrfFilter.class);
+
         // 경로별 접근 권한 설정
         http.authorizeRequests()
                 // '/security/all' 경로는 모든 사용자에게 접근 허용
